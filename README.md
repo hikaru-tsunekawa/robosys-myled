@@ -15,26 +15,28 @@
 `$ git clone https://github.com//hikaru-tsunekawa/robosys-myled.git`
 
 * makeしてコンパイル  
-`$ make`  
-* カーネルモジュールをロード  
+`$ make`
+
+## カーネルモジュールのインストール  
+* ismodでインストール
 `$ sudo insmod myled.ko`  
 * 読み込み書き込み権限付与  
 `$ sudo chmod 666 /dev/myled0`
 
-##　LED点灯
+## LED点灯
 
-* LED点灯
-   `$ echo 1 > /dev/myled0`
-* LED消灯
-   `$ echo 0 > /dev/myled0`
-* LED 5回点灯
-   `$ echo 2 > /dev/myled0`
+* LED点灯  
+`$ echo 1 > /dev/myled0`
+* LED消灯  
+`$ echo 0 > /dev/myled0`
+* LED 5回点灯  
+`$ echo 2 > /dev/myled0`
 
-## 後始末
-```
-$ sudo rmmod myled.ko
-$ make clean
-```
+## カーネルモジュールのアンインストール
+* rmmodでアンインストール  
+`$ sudo rmmod myled.ko`  
+* make cleanでカーネルモジュールを消す  
+`$ make clean`
 
 ## 動画
 
