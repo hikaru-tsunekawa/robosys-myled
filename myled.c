@@ -34,9 +34,9 @@ static ssize_t led_write(struct file* filp, const char* buf, size_t count, loff_
 		int i = 0;
 		while(i < 5){ 
 			gpio_base[7] = 1 << 25; 
-			mdelay(1000); 
+			mdelay(500); //0.5秒待つ 
 			gpio_base[10] = 1 << 25; 
-			mdelay(1000); 
+			mdelay(500); 
 			i++;
 		}
 	}
