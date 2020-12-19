@@ -11,12 +11,12 @@
 * ラズパイのIPアドレスを取得(コマンドプロンプトで`arp -a`を入力して検索等)して，ラズパイ環境内に入る  
 `$ ssh ubuntu@[取得したIPアドレス] ` 
 
-* gitからコードをクローン
+* gitからコードをクローン  
 `$ git clone https://github.com//hikaru-tsunekawa/robosys-myled.git`
 
-* makeしてコンパイル
-`$ make`
-`$ sudo insmod myled.ko`
+* makeしてコンパイル  
+`$ make`  
+`$ sudo insmod myled.ko`  
 `$ sudo chmod 666 /dev/myled0`
 
 ##　LED点灯
