@@ -1,14 +1,13 @@
 ## 内容
-*上記のプログラム等はRasberryPiを用いたデバイスドライバです．
-*以下の要件に従って実行するとLEDを点灯・点滅させることができます．
+* 上記のプログラム等はRasberryPiを用いたデバイスドライバです．
+* 以下の要件に従って実行するとLEDを点灯・点滅させることができます．
 
-##環境
-*Rasberry Pi3 
-*ubuntu20.04 lts
+## 環境
+* Rasberry Pi3 
+* ubuntu20.04 lts
 
 ## 実行方法
-$ git clone https://github.com/bulauza/robosys.git
-$ cd robosys/
+$ git clone https://github.com//hikaru-tsunekawa/robosys-myled.git
 $ make
 $ sudo insmod myled.ko
 $ sudo chmod 666 /dev/myled0
@@ -30,6 +29,5 @@ $ make clean
 ```
 
 ## 動画
-https://m.youtube.com/watch?v=eryEZQW-6hU
 
-## 参考にしたサイト
+## 参考文献
