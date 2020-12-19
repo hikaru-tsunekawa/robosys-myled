@@ -49,5 +49,11 @@ $ cd robosys-myled
 https://youtu.be/leq77MlavLQ
 
 ## 参考URL
-* Linuxカーネルでスリープする方法https://www.it-swarm-ja.tech/ja/c/linux%E3%82%AB%E3%83%BC%E3%83%8D%E3%83%AB%E3%81%A7%E3%82%B9%E3%83%AA%E3%83%BC%E3%83%97%E3%81%99%E3%82%8B%E6%96%B9%E6%B3%95/1072151555/
+
+* ロボットシステム学  
+https://github.com/ryuichiueda/robosys2020
+
+* Linuxカーネルでスリープする方法  
+https://www.it-swarm-ja.tech/ja/c/linux%E3%82%AB%E3%83%BC%E3%83%8D%E3%83%AB%E3%81%A7%E3%82%B9%E3%83%AA%E3%83%BC%E3%83%97%E3%81%99%E3%82%8B%E6%96%B9%E6%B3%95/1072151555/
+
 
