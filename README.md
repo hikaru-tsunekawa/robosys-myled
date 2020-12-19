@@ -4,7 +4,9 @@
 
 ## 環境
 * Rasberry Pi3 
-* ubuntu20.04 lts(wsl2)
+* ubuntu20.04 lts(wsl2)  
+* 回路は以下の写真を参考にLEDの+側を25PIN，-側をGNDに接続  
+![サンプル回路](rasberrypi_demo.jpg "raspi")
 
 ## 実行方法
 
