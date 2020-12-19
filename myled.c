@@ -32,25 +32,15 @@ static ssize_t led_write(struct file* filp, const char* buf, size_t count, loff_
 	
 	else if(c == '2'){
 		int i = 0;
-		while(i < 2){ //2回点灯
+		while(i < 5){ 
 			gpio_base[7] = 1 << 25; 
-			mdelay(1000); //1秒待つ
+			mdelay(1000); 
 			gpio_base[10] = 1 << 25; 
 			mdelay(1000); 
 			i++;
 		}
 	}
-
-	else if(c == '3'){
-		int i = 0;
-		while(i < 10){ //10回点灯
-			gpio_base[7] = 1 << 25;
-			mdelay(100); //0.1秒待つ
-			gpio_base[10] = 1 << 25;
-			mdelay(100);
-			i++;
-		}
-	}  
+ 
 	return 1;
 }
 
