@@ -16,7 +16,9 @@
 
 * makeしてコンパイル  
 `$ make`  
+* カーネルモジュールをロード  
 `$ sudo insmod myled.ko`  
+* 読み込み書き込み権限付与  
 `$ sudo chmod 666 /dev/myled0`
 
 ##　LED点灯
