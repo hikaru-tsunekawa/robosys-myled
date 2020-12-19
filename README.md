@@ -9,7 +9,7 @@
 ## 実行方法
 
 * ラズパイのIPアドレスを取得(コマンドプロンプト等で`arp -a`を入力して検索等)して，ラズパイ環境内に入る
-`$ ssh ubuntu@192.168.137.224  
+`$ ssh ubuntu@[取得したIPアドレス] ` 
 
 * gitからコードをクローン
 `$ git clone https://github.com//hikaru-tsunekawa/robosys-myled.git`
