@@ -4,7 +4,7 @@
 
 ## 環境
 * Rasberry Pi3 
-* ubuntu20.04 lts
+* ubuntu20.04 lts(wsl2)
 
 ## 実行方法
 
@@ -18,7 +18,7 @@
 `$ make`
 
 ## カーネルモジュールのインストール  
-* ismodでインストール
+* ismodでインストール  
 `$ sudo insmod myled.ko`  
 * 読み込み書き込み権限付与  
 `$ sudo chmod 666 /dev/myled0`
