@@ -11,10 +11,15 @@
 * ラズパイのIPアドレスを取得(コマンドプロンプトで`arp -a`を入力して検索等)して，ラズパイ環境内に入る  
 `$ ssh ubuntu@[取得したIPアドレス] ` 
 
-* gitがなかったらインストール
-`$ sudo apt install git`
-* gitからコードをクローン  
-`$ git clone https://github.com//hikaru-tsunekawa/robosys-myled.git`
+* gitがなかったらインストール  
+`$ sudo apt install git`  
+
+* robosys-myledをgitでダウンロード  
+```
+$ cd ~
+$ git clone https://github.com//hikaru-tsunekawa/robosys-myled.git
+$ cd robosys-myled
+```
 
 * makeしてコンパイル  
 `$ make`
